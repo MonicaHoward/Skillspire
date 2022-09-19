@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conditional Demo</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      // Here we create our prompt and confirm variables which will store user input.
+      var confirmTacos = confirm("Do you like tacos?");
+      var confirmHorchata = confirm("Do you like Horchata?");
+      var tacoType = prompt("What kind of tacos do you like?");
+
+      // If the user likes sushi (confirmSushi === true), we run the following block of code.
+      if (confirmTacos) {
+        alert("You like " + tacoType + "!");
+      }
+      // If the user likes ginger tea (confirmGingerTea === true), we run the following block of code.
+      else if (confirmHorchata) {
+        alert("You like horchata!!");
+      }
+      // If neither of the previous condition were true, we run the following block of code.
+      else {
+        document.write("You don't like tacos or horchata.");
+      }
+
+    </script>
+
+  </body>
+</html>
