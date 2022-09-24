@@ -1,4 +1,4 @@
-You will recreate this wire-frame.
+You will have 30 minutes recreate this wire-frame.
 
 Grade yourself.
 
